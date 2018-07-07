@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+	font-family: Montserrat;
+	margin: 0px;
+	padding: 0px;
+}
+
+.top {
+	background-color: #bbf;
+	border-bottom: 1px solid #99d;
+	padding: 15px 10px;
+	margin: 0px;
+}
+
+.bottom {
+	padding: 15px 10px;
+}
+
+.autocomplete-panel {
+    font-family: "Helvetica Neue","Helvetica","Arial","sans-serif";
+    background-color: white;
+    position: absolute;
+    margin-left: -5px;
+    cursor: pointer;
+    line-height: 1.4em;
+    font-size: 16px;
+    padding: 0px 5px ;
+    text-align: left;
+    text-size-adjust: 100%;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-clip: border-box;
+    box-shadow: 3px 2px 3px #DDD;
+}
+
+.autocomplete-prefix {
+    opacity: 0.3;
+}
+
+.autocomplete-suffix {
+    opacity: 0.7;
+}
+
+.target-content {
+	border: 1px solid #bbf;
+	width: 500px;
+	height: 100%;
+}
+
+.inputcell {
+	min-width: 500px;
+}
+

@@ -1,0 +1,40 @@
+{
+  "name": "xtm-date-suggest",
+  "version": "1.0.0",
+  "description": "XTM Editor plug-in to display date translation suggestions.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "lint": "./node_modules/.bin/eslint src/*",
+    "report": "nyc --reporter=html mocha --require babel-core/register test/setup.js test/*",
+    "start": "webpack-dev-server --open",
+    "test": "mocha --require babel-core/register test/setup.js test/*",
+    "watch": "webpack --watch"
+  },
+  "keywords": [
+    "XTM",
+    "translation",
+    "japanese",
+    "date"
+  ],
+  "author": "Dan Liberatori <daniel.liberatori@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.1.2",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "mocha": "^5.2.0",
+    "mocha-jsdom": "^2.0.0",
+    "nyc": "^12.0.2",
+    "webpack": "^4.15.1",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/garroadran/xtm-date-suggest"
+  }
+}

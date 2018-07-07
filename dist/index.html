@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="index.css" />
+    </head>
+    <body>
+        <div class="top">
+            Select a date format:
+            <br>
+            <select id="dropdown">
+                <option value="basicShortMonth">Short month, 24hr clock (14:23, Jan. 5)</option>
+                <option value="basicLongMonth">Long month, 24hr clock (14:23, January 5)</option>
+                <option value="shortMonthAMPM">Short month, 12hr clock (2:23pm, Jan. 5)</option>
+            </select>
+        </div>
+        <div class="bottom">
+            <table id="trans-table">
+                <thead>
+                    <th>Source (ja_JP)</th>
+                    <th>Target (en_US)</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="sourceContent0">
+                            これは日本語です。しかも、かなり長い文章だ。長いっすね！
+                        </td>
+                        <td class="inputcell">
+                            <p class="target-content" id="content0" contenteditable="true"> </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="sourceContent1">
+                            7月10日から、頑張るぞ
+                        </td>
+                        <td class="inputcell">
+                            <p class="target-content" id="content1" contenteditable="true"> </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="sourceContent2">
+                            気にしないで。8月9日10時からリセットされるから。
+                        </td>
+                        <td class="inputcell">
+                            <p class="target-content" id="content2" contenteditable="true"> </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="sourceContent3">
+                            気にしないで。12月31日10時23分からリセットされるから。
+                        </td>
+                        <td class="inputcell">
+                            <p class="target-content" id="content3" contenteditable="true"> </p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
