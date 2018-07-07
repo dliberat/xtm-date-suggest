@@ -7,7 +7,7 @@
     "build": "webpack",
     "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
     "lint": "./node_modules/.bin/eslint src/*",
-    "report": "nyc --reporter=html mocha --require babel-core/register test/setup.js test/*",
+    "report": "nyc mocha --require babel-core/register test/setup.js test/*",
     "start": "webpack-dev-server --open",
     "test": "mocha --require babel-core/register test/setup.js test/*",
     "watch": "webpack --watch"
