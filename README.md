@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/garroadran/xtm-date-suggest.svg?branch=master)](https://travis-ci.com/garroadran/xtm-date-suggest)
+
 # XTM Date Autosuggest
 
 ### Overview
