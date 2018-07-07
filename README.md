@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.com/garroadran/xtm-date-suggest.svg?branch=master)](https://travis-ci.com/garroadran/xtm-date-suggest)
+[![codecov](https://codecov.io/gh/garroadran/xtm-date-suggest/branch/master/graph/badge.svg)](https://codecov.io/gh/garroadran/xtm-date-suggest)
+
 # XTM Date Autosuggest
 
 ### Overview
